@@ -26,6 +26,7 @@ def counter():         #?????
     def incrementer():
         nonlocal num
         num += 1
+        print(num)
         return num 
     return incrementer
 counter()
